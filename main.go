@@ -27,9 +27,8 @@ import (
 	"path"
 	"strconv"
 	"strings"
-	"time"
 )
-
+//"time"
 var flRepo = flag.String("repo", envString("GIT_SYNC_REPO", ""), "git repo url")
 var flBranch = flag.String("branch", envString("GIT_SYNC_BRANCH", "master"), "git branch")
 var flRev = flag.String("rev", envString("GIT_SYNC_REV", "HEAD"), "git rev")
